@@ -4,7 +4,17 @@
  */
 
  /** BEGIN CODE **/
+ const square = document.querySelector('.square');
 
+ let circle=document.createElement('div');
+ square.appendChild(circle);
+
+ circle.style.width = '198px';
+ circle.style.height = '198px';
+ circle.style.border = 'thin solid black';
+ circle.style.borderRadius = '100%';
+ circle.style.margin = 'auto'
+ 
 
 
 
